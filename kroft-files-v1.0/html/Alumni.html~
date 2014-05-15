@@ -151,134 +151,324 @@
 						<!--end of years-->
 							<div class="classwrapper"> <!-- wraps the year containing the alumni-->
 															
-							<h2 id="class1">1969-173</h2>
-						<!--start doctors profile-->
-						<div class="doctors-list">
+							<h2 id="class1">1969-1973</h2>
+									
+									<div class="doctors-list"> <!--Adel Khalifa-->
+															
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Adel Khalifa</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Professor of ENT
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>Co-founder of TSSA</li>
+														<li>TSSA president 1969-1970</li>										
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+										<img src="http://twokidsandacoupon.com/wp-content/uploads/2013/10/517owjJLwlL._BO2204203200_PIsitb-sticker-arrow-clickTopRight35-76_AA278_PIkin4BottomRight-5222_AA300_SH20_OU01_-1.jpg" alt="some image" title="just some test image">
+									</div>
+									
+									
+									<div class="doctors-list"> <!--Magdy El-Hefnawy-->
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Magdy El-Hefnawy</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Chairman of Gharbia Syndicate
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>Co-founder of TSSA</li>										
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+									</div>						
+									
+									<div class="doctors-list"> <!-- Sayed Fetouh-->
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Sayed Fetouh</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Professor of obstetrics and gynaecology
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>Co-founder of TSSA</li>
+														<li>TSSA president 1971-1973</li>										
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+									</div>						
+									<div class="doctors-list"> <!--Ahmed Gamea-->
+									
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Ahmed Gamea</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Professor of ENT
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>member in TSSA</li>										
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+									</div>
+									<div class="doctors-list"> <!--Abd El-Naser Oreiby-->
+								
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Abd El-Nasr Oreiby</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Professor of anaesthesiology
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>TSSA general secretary 1972-1973</li>										
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+									</div>
+									
+									 <!-- end of the year containing the alumni-->
+							<h2 id="class2">1973-1979</h2>
+						
+									<div class="doctors-list"> <!--Khalid lotfy-->
+															
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Khalid Lotfy</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Professor of Urology
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>TSSA LEO 1978-1979</li>
+																							
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+										<img src="http://twokidsandacoupon.com/wp-content/uploads/2013/10/517owjJLwlL._BO2204203200_PIsitb-sticker-arrow-clickTopRight35-76_AA278_PIkin4BottomRight-5222_AA300_SH20_OU01_-1.jpg" alt="some image" title="just some test image">
+									</div>
+									
+									
+									<div class="doctors-list"> <!-- Magdy Khalil-->
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Magdy Khalil</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Professor of Obstetrics and Gynaecology
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>TSSA president 1976-1977</li>										
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+									</div>						
+									
+									<div class="doctors-list"> <!-- Saed Askar-->
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Saed Askar</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Professor of general surgery
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>TSSA president 1974-1975</li>
+																								
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+									</div>						
+									<div class="doctors-list"> <!--Assem Ghalab-->
+									
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Dr. Assem Ghalab</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Consultant urologist at Helal hospital
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>TSSA president 1978-1979</li>
+														<li>TSSA president 1980-1981</li>								
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+									</div>
+														
+						
+							<h2 id="class3">1979-1983</h2>
+									<div class="doctors-list"> <!--Ahmed Zaghlol-->
+												
+										<table>
+											<tr>
+												<td>Name:</td>
+												<td>Prof. Dr. Ahmed Zaghlol</td>
+											</tr>
+											<tr>
+												<td>Speciality</td>
+												<td>
+												Professor of Cardiology
+												</td>
+											</tr>
+											<tr>
+												<td>Posts in TSSA</td>
+												<td>
+													<ul>
+														<li>TSSA General Secretary 1978-1979</li>
+														<li>TSSA President 1980-1981</li>
+																							
+													</ul>
+												</td>
+											</tr>
+											
+										</table>
+										<img src="http://twokidsandacoupon.com/wp-content/uploads/2013/10/517owjJLwlL._BO2204203200_PIsitb-sticker-arrow-clickTopRight35-76_AA278_PIkin4BottomRight-5222_AA300_SH20_OU01_-1.jpg" alt="some image" title="just some test image">
+									</div>
+									<div class="doctors-list"> <!--Osama Amin-->
 												
 							<table>
 								<tr>
 									<td>Name:</td>
-									<td>Prof. Dr. Adel Khalifa</td>
+									<td>Prof. Dr. Osama Shalaby</td>
 								</tr>
 								<tr>
 									<td>Speciality</td>
 									<td>
-									Professor of ENT
+									Professor of Orthopaedic Surgery
 									</td>
 								</tr>
 								<tr>
 									<td>Posts in TSSA</td>
 									<td>
 										<ul>
-											<li>Co-founder of TSSA</li>
-											<li>TSSA president 1969-1970</li>										
+											<li>TSSA Treasurer 1978-1979</li>
+											<li>TSSA President 1982-1983</li>
+																				
 										</ul>
 									</td>
 								</tr>
 								
 							</table>
-							<img src="http://twokidsandacoupon.com/wp-content/uploads/2013/10/517owjJLwlL._BO2204203200_PIsitb-sticker-arrow-clickTopRight35-76_AA278_PIkin4BottomRight-5222_AA300_SH20_OU01_-1.jpg" alt="some image">
+							<img src="http://twokidsandacoupon.com/wp-content/uploads/2013/10/517owjJLwlL._BO2204203200_PIsitb-sticker-arrow-clickTopRight35-76_AA278_PIkin4BottomRight-5222_AA300_SH20_OU01_-1.jpg" alt="some image" title="just some test image">
 						</div>
-						<!--end dr. profile in the </div> above-->
-						
-						<div class="doctors-list">
-							<table>
-								<tr>
-									<td>Name:</td>
-									<td>Prof. Dr. Magdy El-Hefnawy</td>
-								</tr>
-								<tr>
-									<td>Speciality</td>
-									<td>
-									Chairman of Gharbia Syndicate
-									</td>
-								</tr>
-								<tr>
-									<td>Posts in TSSA</td>
-									<td>
-										<ul>
-											<li>Co-founder of TSSA</li>										
-										</ul>
-									</td>
-								</tr>
-								
-							</table>
-						</div>						
-						
-						<div class="doctors-list">
-							<table>
-								<tr>
-									<td>Name:</td>
-									<td>Prof. Dr. Sayed Fetouh</td>
-								</tr>
-								<tr>
-									<td>Speciality</td>
-									<td>
-									Professor of obstetrics and gynaecology
-									</td>
-								</tr>
-								<tr>
-									<td>Posts in TSSA</td>
-									<td>
-										<ul>
-											<li>Co-founder of TSSA</li>
-											<li>TSSA president 1971-1973</li>										
-										</ul>
-									</td>
-								</tr>
-								
-							</table>
-						</div>						
-						<div class="doctors-list">
-						
-							<table>
-								<tr>
-									<td>Name:</td>
-									<td>Prof. Dr. Ahmed Gamea</td>
-								</tr>
-								<tr>
-									<td>Speciality</td>
-									<td>
-									Professor of ENT
-									</td>
-								</tr>
-								<tr>
-									<td>Posts in TSSA</td>
-									<td>
-										<ul>
-											<li>member in TSSA</li>										
-										</ul>
-									</td>
-								</tr>
-								
-							</table>
-						</div>
-						<div class="doctors-list">
+					
+							
 					
 							<table>
 								<tr>
 									<td>Name:</td>
-									<td>Prof. Dr. Abd El-Nasr Oreiby</td>
+									<td>Prof. Dr. Ahmed Zaghlol</td>
 								</tr>
 								<tr>
 									<td>Speciality</td>
 									<td>
-									Professor of anaesthesiology
+									Professor of Cardiology
 									</td>
 								</tr>
 								<tr>
 									<td>Posts in TSSA</td>
 									<td>
 										<ul>
-											<li>TSSA general secretary 1972-1973</li>										
+											<li>TSSA member 1978-1979</li>	
+																				
 										</ul>
 									</td>
 								</tr>
 								
 							</table>
+						
+						
 						</div>
 						
-						</div> <!-- end of the year containing the alumni-->
+												
 	        	</div>
 	        	<!-- ENDS Page wrap -->
 
