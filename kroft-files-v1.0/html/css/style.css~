@@ -1467,7 +1467,6 @@ color: #fff;
 .doctors-list table{
 	width: 65%;
 	display: inline-block;
-	vertical-align: top;
 }
 
 .doctors-list table tr td{
