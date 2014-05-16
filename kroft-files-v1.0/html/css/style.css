@@ -1479,4 +1479,11 @@ color: #fff;
 	vertical-align: center;
 }
 
+#years-wrap h2,
+#years-wrap .link{
+	display: inline-block;
+}
+.link{
+	font-size: 0.625em;
+}
 /**************GALLERY2 LAYOUT*************/
