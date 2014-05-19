@@ -35,23 +35,19 @@
 	-ms-flex-grow: 1;
 	-moz-flex-grow: 1;
 	flex-grow: 1;
-	padding: 5px;
+	tansition: 1s;
 }
 
 #nav-items li a {
 	text-decoration: none;
 	margin: 1px auto;
-	transition: 1s;
-	-webkit-transition: .5s;
-	-moz-transition: .5s;
-	-ms-transition: .5s;
 }
 
 #nav-items li a:hover{
-	-webkit-flex:2;
-	-ms-flex: 2;
-	-moz-flex: 2;
-	flex: 2;
+	-webkit-flex-grow:2;
+	-ms-flex-grow: 2;
+	-moz-flex-grow: 2;
+	flex-grow: 2;
 	background-color: whitesmoke;
 }
 /*******BODY*************/
@@ -93,6 +89,77 @@
 	transition: 1s ease-in 1s;
 }
 .content:hover{
-	transform: scale(1.1);
-	-webkit-transform: scale(1.1);
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+}
+
+/**********CONTROLLS STYLES IN COMMITTEES PAGES****************/
+	/****columns are 65px wide, gutters are 20px wide******/
+.grid-container{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.grid-container > [class^="grid-"]{
+	float: left;
+	min-width: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 2%; /** (20/1000) X 100 **/
+}
+
+.grid-container > [class^="grid-"]{
+	margin-left: 0px;
+}
+
+.grid-container > [class^="grid-"]{
+	float: right;
+}
+
+.grid-container::after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+.grid-1{
+	width: 6.5%;
+}
+.grid-2{
+	width: 15%;
+}
+.grid-3{
+	width: 23.5%;
+}
+.grid-4 {
+	width: 32%;
+}
+.grid-5 {
+	width: 40.5%;
+}
+.grid-6 {
+	width: 49%;
+}
+.grid-7 {
+	width: 57.5%;
+}
+.grid-8 {
+	width: 66%;
+}
+.grid-9 {
+	width: 74.5%;
+}
+.grid-10 {
+	width: 83%;
+}
+.grid-11 {
+	width: 91.5%;
+}
+.grid-12 {
+	width: 100%;
 }

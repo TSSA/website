@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SCOPHeroes Blog</title>
+<link rel="stylesheet" href="normalize.css"  />
+<link rel="stylesheet" href="blog.css" />
+</head>
+
+<body>
+	<header>
+		<div id="main-nav">
+			<img src="http://placehold.it/150x150" />
+			<ul id="nav-items">
+				<li><a href="#">SCOPH</a></li>
+				<li><a href="#">SCORA</a></li>
+				<li><a href="#">SCORP</a></li>
+				<li><a href="#">SCOME</a></li>
+				<li><a href="#">SCOPE</a></li>
+				<li><a href="#">SCORE</a></li>
+			</ul>
+		</div>
+	</header>
+	
+
+	<!--<div class="wrapper"> -->
+		<div class="grid-container">
+			<div class="grid-7">
+				<h2>Lorum Ipsium</h2>
+				<img src="http://placehold.it/350x350" />
+				<p>Duis sollicitudin, augue eu euismod mattis, ipsum ante porta enim, sit amet ullamcorper quam eros et diam. Vivamus orci dui, pellentesque nec interdum fringilla, sodales nec felis. Phasellus vel molestie felis. Donec sit amet velit vel dui cursus egestas ac id lectus. Pellentesque iaculis, eros at aliquam sodales, risus nisi elementum leo, et tincidunt felis tellus at purus. Cras vel mi auctor, lacinia lorem non, eleifend urna. Pellentesque eget fermentum lectus. Phasellus ac justo erat. Morbi quis libero sagittis, imperdiet turpis sed, porttitor mauris. Etiam vehicula mi ac urna consequat, ac fermentum mi egestas. Praesent vel libero est.
+		
+				</p>
+			</div>
+			
+			<div class="grid-4">
+				<h2>Lorum Ipsium</h2>
+				<p>Duis sollicitudin, augue eu euismod mattis, ipsum ante porta enim, sit amet ullamcorper quam eros et diam. Vivamus orci dui, pellentesque nec interdum fringilla, sodales nec felis. Phasellus vel molestie felis. Donec sit amet velit vel dui cursus egestas ac id lectus. Pellentesque iaculis, eros at aliquam sodales, risus nisi elementum leo, et tincidunt felis tellus at purus. Cras vel mi auctor, lacinia lorem non, eleifend urna. Pellentesque eget fermentum lectus. Phasellus ac justo erat. Morbi quis libero sagittis, imperdiet turpis sed, porttitor mauris. Etiam vehicula mi ac urna consequat, ac fermentum mi egestas. Praesent vel libero est.
+		
+				</p>
+			</div>
+		</div>
+		<div class="grid-container">
+			<div class="grid-4">
+				<h2>Lorum Ipsium</h2>
+				<p>Duis sollicitudin, augue eu euismod mattis, ipsum ante porta enim, sit amet ullamcorper quam eros et diam. Vivamus orci dui, pellentesque nec interdum fringilla, sodales nec felis. Phasellus vel molestie felis. Donec sit amet velit vel dui cursus egestas ac id lectus. Pellentesque iaculis, eros at aliquam sodales, risus nisi elementum leo, et tincidunt felis tellus at purus. Cras vel mi auctor, lacinia lorem non, eleifend urna. Pellentesque eget fermentum lectus. Phasellus ac justo erat. Morbi quis libero sagittis, imperdiet turpis sed, porttitor mauris. Etiam vehicula mi ac urna consequat, ac fermentum mi egestas. Praesent vel libero est.
+		
+				</p>
+			</div>
+		</div>
+	<!--</div>-->
+
+
+</body>
+</html>
