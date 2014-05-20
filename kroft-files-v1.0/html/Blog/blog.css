@@ -2,7 +2,7 @@
 
 #main-nav{
 	min-height: 100px;
-	background: #eee; /*change later*/
+	background: #FAF7FF;
 	padding: 5px;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -12,9 +12,10 @@
 
 #main-nav img{
 	margin-right: auto;
-	border-radius: 50%;
+	border-radius: 5px;
 	margin-left: 20px;
-	padding: 5px;
+	padding: 5px 25px;
+	margin-bottom: 25px;
 }
 
 #nav-items{
@@ -31,6 +32,11 @@
 	color: darkgreen;
 	text-align: center;
 	margin: 50px 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
 	-webkit-flex-grow: 1;
 	-ms-flex-grow: 1;
 	-moz-flex-grow: 1;
@@ -43,16 +49,16 @@
 	margin: 1px auto;
 }
 
-#nav-items li a:hover{
+/**#nav-items li a:hover{
 	-webkit-flex-grow:2;
 	-ms-flex-grow: 2;
 	-moz-flex-grow: 2;
 	flex-grow: 2;
 	background-color: whitesmoke;
-}
+}**/
 /*******BODY*************/
 #wrapper{
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 5px auto;
 }
 
@@ -73,24 +79,37 @@
 	margin-bottom: 10px;
 }
 
+#SCOPH{
+	background-color: rgba(244, 125, 60, .7);
+	color: #521 ;
+}
+
+#SCORA{
+	background-color: rgba(189, 34, 42, .7);
+	color: #701418;
+}
+
+#SCORP{
+	background-color: rgba(95, 145, 63, .7);
+	color: #233618;
+}
+
+#SCORE, #SCOPE{
+	background-color: rgba(1, 128, 192, .7);
+	color: #004D73;
+}
 .content{
 	-webkit-flex-grow: 1;
 	-ms-flex-grow: 1;
 	-moz-flex-grow: 1;
 	flex-grow: 1;
-	tansition: 1s;
 	margin: 10px;
-	font-size: 1.3em;
-	line-height: 120%;
+	font-size: 1.125em;
+	line-height: 115%;
 	border: 1px solid #999;
 	border-radius: 10px;
 	padding: 5px;
 	text-align: center;
-	transition: 1s ease-in 1s;
-}
-.content:hover{
-	transform: scale(1.2);
-	-webkit-transform: scale(1.2);
 }
 
 /**********CONTROLLS STYLES IN COMMITTEES PAGES****************/

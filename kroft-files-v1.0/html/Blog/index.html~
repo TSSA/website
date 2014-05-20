@@ -48,7 +48,7 @@
 			</p>
 		</div>
 	</div>
-	</div>
+	
 	<div id="row2">
 		<div id="SCOME" class="content">
 			<h2>Lorum Ipsum</h2>
@@ -75,7 +75,6 @@
 			</p>
 		</div>
 	</div>
-	</div>
-
+	</div> <!-- end of wrapper-->
 </body>
 </html>
