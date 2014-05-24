@@ -1,0 +1,176 @@
+/********** NAVIGATION ************/
+
+#main-nav{
+	min-height: 114px;
+	background: #FAF7FF;
+	padding: 5px;
+
+}
+
+#main-nav img{
+	border-radius: 5px;
+	margin-left: 20px;
+	float: left;
+}
+
+#nav-items{
+	list-style: none;
+	font-size: 1.2em;
+	float: right;
+}
+
+#nav-items li{
+	background-color: whitesmoke;
+	color: darkgreen;
+	text-align: center;
+	margin: 50px 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#nav-items li a {
+	text-decoration: none;
+	margin: 1px auto;
+	color: darkgreen;
+}
+
+#nav-items li a:visited{
+	color: darkgreen;
+}
+
+/*******BODY*************/
+#wrapper{
+	max-width: 1200px;
+	margin: 5px auto;
+}
+
+#row1{
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#row2{
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+#SCOPH{
+	background-color: rgba(244, 125, 60, .7);
+	color: #521 ;
+}
+
+#SCORA{
+	background-color: rgba(189, 34, 42, .7);
+	color: #701418;
+}
+
+#SCORP{
+	background-color: rgba(95, 145, 63, .7);
+	color: #233618;
+}
+
+#SCORE, #SCOPE{
+	background-color: rgba(1, 128, 192, .7);
+	color: #004D73;
+}
+.content{
+	margin: 10px;
+	font-size: 1.125em;
+	line-height: 115%;
+	border: 1px solid #999;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+/**********CONTROLLS STYLES IN COMMITTEES PAGES****************/
+	/****columns are 65px wide, gutters are 20px wide******/
+.grid-container{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.grid-container > [class^="grid-"]{
+	float: left;
+	min-width: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 2%; /** (20/1000) X 100 **/
+}
+
+.grid-container > [class^="grid-"]:first-child{
+	margin-left: 0px;
+}
+
+.grid-container > [class^="grid-"]:last-child{
+	float: right;
+}
+
+.grid-container::after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+
+.grid-1{
+	width: 6.5%;
+}
+.grid-2{
+	width: 15%;
+}
+.grid-3{
+	width: 23.5%;
+}
+.grid-4 {
+	width: 32%;
+}
+.grid-5 {
+	width: 40.5%;
+}
+.grid-6 {
+	width: 49%;
+}
+.grid-7 {
+	width: 57.5%;
+}
+.grid-8 {
+	width: 66%;
+}
+.grid-9 {
+	width: 74.5%;
+}
+.grid-10 {
+	width: 83%;
+}
+.grid-11 {
+	width: 91.5%;
+}
+.grid-12 {
+	width: 100%;
+}
+
+
+/**** SCOPH page *****/
+
+#main-photo{
+	float: left;
+	border-radius: 50%;
+	width: 30%;
+	height: 30%;
+}
