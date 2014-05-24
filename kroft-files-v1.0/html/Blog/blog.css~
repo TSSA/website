@@ -15,6 +15,7 @@
 	border-radius: 5px;
 	margin-left: 20px;
 	padding: 5px 25px;
+	margin-bottom: 25px;
 }
 
 #nav-items{
@@ -180,4 +181,18 @@
 }
 .grid-12 {
 	width: 100%;
+}
+
+
+/**** SCOPH page *****/
+body{
+	background-color: rgba(244, 125, 60, .7);
+	color: #521 ;
+}
+
+#main-photo{
+	float: left;
+	border-radius: 5px;
+	width: 30%;
+	height: 30%;
 }

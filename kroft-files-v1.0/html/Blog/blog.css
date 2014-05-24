@@ -1,34 +1,26 @@
 /********** NAVIGATION ************/
 
 #main-nav{
-	min-height: 100px;
+	min-height: 114px;
 	background: #FAF7FF;
 	padding: 5px;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: -moz-flex;
-	display: flex;
+
 }
 
 #main-nav img{
-	margin-right: auto;
 	border-radius: 5px;
 	margin-left: 20px;
-	padding: 5px 25px;
-	margin-bottom: 25px;
+	float: left;
 }
 
 #nav-items{
 	list-style: none;
 	font-size: 1.2em;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: -moz-flex;
-	display: flex;
+	float: right;
 }
 
 #nav-items li{
-	background-color: white;
+	background-color: whitesmoke;
 	color: darkgreen;
 	text-align: center;
 	margin: 50px 25px;
@@ -36,26 +28,20 @@
 	padding-bottom: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	
-	-webkit-flex-grow: 1;
-	-ms-flex-grow: 1;
-	-moz-flex-grow: 1;
-	flex-grow: 1;
-	tansition: 1s;
+	display: inline-block;
+	border-radius: 5px;
 }
 
 #nav-items li a {
 	text-decoration: none;
 	margin: 1px auto;
+	color: darkgreen;
 }
 
-/**#nav-items li a:hover{
-	-webkit-flex-grow:2;
-	-ms-flex-grow: 2;
-	-moz-flex-grow: 2;
-	flex-grow: 2;
-	background-color: whitesmoke;
-}**/
+#nav-items li a:visited{
+	color: darkgreen;
+}
+
 /*******BODY*************/
 #wrapper{
 	max-width: 1200px;
@@ -99,10 +85,6 @@
 	color: #004D73;
 }
 .content{
-	-webkit-flex-grow: 1;
-	-ms-flex-grow: 1;
-	-moz-flex-grow: 1;
-	flex-grow: 1;
 	margin: 10px;
 	font-size: 1.125em;
 	line-height: 115%;
@@ -181,4 +163,14 @@
 }
 .grid-12 {
 	width: 100%;
+}
+
+
+/**** SCOPH page *****/
+
+#main-photo{
+	float: left;
+	border-radius: 50%;
+	width: 30%;
+	height: 30%;
 }
