@@ -16,6 +16,7 @@
 
 		<!-- JS -->
 		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-scrollspy.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
 		<script src="js/slides/source/slides.min.jquery.js"></script>
@@ -46,7 +47,20 @@
 
 		<!-- GOOGLE FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
-
+		 <script type='text/javascript'>
+	        $(document).ready(function() {
+        			$(window).scrollspy({
+    					min: $("#class1").offset().top,
+    					max: $("#class9").offset().top,
+    					onEnter: function(element, position) {
+    						$("#years-wrap").addClass('fixed');
+    					},
+    					onLeave: function(element, position) {
+    						$("#years-wrap").removeClass('fixed');
+    					}
+        			});
+        		});
+        </script>
 
 	</head>
 	<body>
@@ -112,24 +126,23 @@
 
 	        	<!-- Page wrap -->
 	        	<div id="page-wrap">
-
-						<!--years-->
-						<meta name = "format-detection" content = "telephone=no"> <!--stops iDevices from turning numbers into phone links-->
-							<div id="years-wrap">
-								<ul id="year-list">
-								<li><a href="#class1">1969-1973</a></li>
-								<li><a href="#class2">1973-1979</a></li>
-								<li><a href="#class3">1979-1983</a></li>
-								<li><a href="#class4">1983-1991</a></li>
-								<li><a href="#class5">1991-1994</a></li>
-								<li><a href="#class6">1994-1999</a></li>
-								<li><a href="#class7">1999-2006</a></li>
-								<li><a href="#class8">2006-2009</a></li>
-								<li><a href="#class9">2009-2013</a></li>
-								</ul>
-							</div>
-						<!--end of years-->
-							<div class="classwrapper"> <!-- wraps the year containing the alumni-->
+							<!--years-->
+												<meta name = "format-detection" content = "telephone=no"> <!--stops iDevices from turning numbers into phone links-->
+													<div id="years-wrap">
+														<ul id="year-list">
+														<li><a href="#class1">1969-1973</a></li>
+														<li><a href="#class2">1973-1979</a></li>
+														<li><a href="#class3">1979-1983</a></li>
+														<li><a href="#class4">1983-1991</a></li>
+														<li><a href="#class5">1991-1994</a></li>
+														<li><a href="#class6">1994-1999</a></li>
+														<li><a href="#class7">1999-2006</a></li>
+														<li><a href="#class8">2006-2009</a></li>
+														<li><a href="#class9">2009-2013</a></li>
+														</ul>
+													</div>
+												<!--end of years-->
+							<div id="classwrapper"> <!-- wraps the year containing the alumni-->
 															
 							<h2 id="class1">1969-1973</h2> <span class="link"><a href="#year-list">go to top </a> </span>
 									
@@ -1286,10 +1299,10 @@
 		</div>
 		</footer>
 		<!-- ENDS footer-bottom -->
-		<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-		<script type="text/javascript">
-			$('#year-list li a').on("click", function(){
+			<script type="text/javascript">
+			$('#year-list li a').click(function(){
 				$('html body').animate({"scrollTop": $($(this).attr("href")).offset().top}, 1000);
+				console.log("it worked!");
 			});
 		</script>
 
