@@ -1421,12 +1421,13 @@ color: #fff;
 	background-color: #eee;
 	margin: 10px auto;
 	border: 1px solid #eee;
+	border-radius: 10px;
 }
 .fixed{
     position: fixed;
     top: 0px;
-    left: 0px;
-    right: 0px;
+    left: 173px;
+    right: 173px;
     margin: 5px auto;
     box-shadow: 0px 4px 8px -6px #000;
 }
