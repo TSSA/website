@@ -61,7 +61,8 @@
         			});
         		});
         </script>
-
+        
+        </script>
 	</head>
 	<body>
 
@@ -1303,11 +1304,12 @@
 		</footer>
 		<!-- ENDS footer-bottom -->
 			<script type="text/javascript">
-			$('#year-list li a').click(function(){
+			$('#year-list li a').click(function(event){
+				//event.preventDefault();
 				$('html body').animate({"scrollTop": $($(this).attr("href")).offset().top}, 1000);
 				console.log("it worked!");
-			});
-		</script>
+				});
+			</script>
 
 	</body>
 </html>
