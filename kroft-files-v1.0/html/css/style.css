@@ -1509,3 +1509,48 @@ color: #fff;
 	font-size: 0.625em;
 }
 /**************GALLERY2 LAYOUT*************/
+
+
+/***Incoming***/
+/** will be depricated**/
+.why{
+	background-color: grey;
+	border-radius: 5px;
+	padding: 5px;
+}
+.why>h3{
+	background-color: grey;
+	color: lightgreen;
+	border-radius: 10px;
+	width: 155px;
+	padding: 5px;
+}
+.why>p{
+	background-color: lightgrey;
+	color: darkgreen;
+	border-radius: 10px;
+	width: 80%;
+	padding: 5px;
+	font-size: 1.125rem; 
+}
+/**end of depricated content**/
+
+.jambotron{
+	height: 450px;
+	width: 790px;
+	background-color: gray;
+	border: 2px solid black;
+	color: lightgrey;
+}
+
+.jambotron>h1{
+	color: black;
+	font-size: 2rem;
+	font-family: serif;
+}
+
+.jambotron p {
+	font-size: 1.25rem;
+	font-family: sans-serif;
+	line-height: 110%;
+}

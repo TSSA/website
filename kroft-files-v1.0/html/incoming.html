@@ -46,8 +46,8 @@
 
 		<!-- GOOGLE FONTS -->
 		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
-
-
+		<script type="text/javascript" src="js/flux.jquery.min.js"></script>
+		<script type="text/javascript" src="js/flux.min.js"></script>
 	</head>
 	<body>
 
@@ -116,7 +116,14 @@
 
 	        	<!-- Page wrap -->
 	        	<div id="page-wrap">
-	        		<div>
+	        		<div class="spacer">&nbsp</div>
+	        		<div id="slider">
+					    <img src="http://4.bp.blogspot.com/-5q36_UVCeh8/UKNZTxR3k2I/AAAAAAAAvb8/PHJ1DLJBpnw/s1600/tellymadbanner4copy.png" alt="" title="test caption1"/>
+					    <img src="http://placehold.it/950x300" alt="" title="Ironman Screenshot" />
+					    <img src="http://placehold.it/950x300" alt="" title="test caption2"/>
+					    <img src="http://placehold.it/950x300" alt="" title="test caption3"/>
+					</div>
+	        		<div class="why">
 	        			<h3>Why Egypt?</h3>
 	        			<p>some text that is supposed to go here</p>
 	        			<p>and here and here and here and some more text</p>
@@ -159,7 +166,7 @@
 		<div id="footer-bottom">
 			<div class="bottom-wrapper">
 				<div id="bottom-left">
-					&copy; 2011 Ansimuz.  <a href="http://themeforest.net/user/Ansimuz?ref=ansimuz">View portfolio</a>
+					&copy; 2014 TSSA  <a href="http://themeforest.net/user/Ansimuz?ref=ansimuz">View portfolio</a>
 				</div>
 				<div id="bottom-right">
 					<ul id="footer-nav">
@@ -172,8 +179,16 @@
 			</div>
 		</div>
 		<!-- ENDS footer-bottom -->
-
-
-
+		<script type="text/javascript">
+			$(function(){
+   				window.myFlux = new flux.slider('#slider',{
+				pagination: true,
+   				captions: true,
+   				controls: true,
+   				delay: 10000,
+   				});
+   				
+			});
+		</script>
 	</body>
 </html>
