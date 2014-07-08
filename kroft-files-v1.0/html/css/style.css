@@ -1554,3 +1554,9 @@ color: #fff;
 	font-family: sans-serif;
 	line-height: 110%;
 }
+
+#map-canvas{
+	height: 300px;
+	width: 900px;
+	margin: 10px;
+}
