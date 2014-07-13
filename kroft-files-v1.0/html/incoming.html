@@ -190,21 +190,26 @@
    				
 			});
 		</script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtIRX1lNDZbl8TctSrghHk919rWVlWkbQ">
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtIRX1lNDZbl8TctSrghHk919rWVlWkbQ">
     </script>
     <script type="text/javascript">
     var geocoder;
     var map;
+    var marker;
       function initialize() {
-      	geocoder = new google.maps.Geocoder();
+      	//geocoder = new google.maps.Geocoder();
 	    var latlng = new google.maps.LatLng(30.1140554,31.4129532);
 
         var mapOptions = {
           center: latlng,
-          zoom: 12
+          zoom: 8
         };
-        var map = new google.maps.Map(document.getElementById("map-canvas"),
+        map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
+      	marker = new google.maps.Marker({
+      		map: map,
+      		position: latlng
+      	})
       }
       google.maps.event.addDomListener(window, 'load', initialize);
       

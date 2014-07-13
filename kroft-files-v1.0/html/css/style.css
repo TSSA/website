@@ -1536,7 +1536,6 @@ color: #fff;
 /**end of depricated content**/
 
 .jambotron{
-	height: 450px;
 	width: 790px;
 	background-color: gray;
 	border: 2px solid black;
@@ -1559,4 +1558,28 @@ color: #fff;
 	height: 300px;
 	width: 900px;
 	margin: 10px;
+}
+
+/**Outgoing**/
+.country-list{
+	margin: 10px auto;
+}
+.country-list ul{
+	background-color: silver;
+	color: whitesmoke;
+	padding: 1px;
+	text-align: center;
+	margin: 2px auto;
+}
+
+.country-list li{
+	display: block;
+}
+.country-list li:nth-child(2n){
+	display: none;
+}
+.country-list button{
+	border-radius: 10px;
+	background: whitesmoke;
+	color: darkgreen;
 }
