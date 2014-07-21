@@ -1512,7 +1512,23 @@ color: #fff;
 
 
 /***Incoming***/
-/** will be depricated**/
+.welcome{
+	background-color: #54007F;
+	padding: 5px
+}
+.welcome a{
+	text-decoration: none;
+	color: #129EEA;
+}
+.welcome a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+	text-shadow: 0 0 whitesmoke;
+}
+.welcome p{
+	font-family: sans-serif;
+	color: white;
+}
 .why{
 	background-color: grey;
 	border-radius: 5px;
@@ -1533,27 +1549,7 @@ color: #fff;
 	padding: 5px;
 	font-size: 1.125rem; 
 }
-/**end of depricated content**/
-
-.jambotron{
-	width: 790px;
-	background-color: gray;
-	border: 2px solid black;
-	color: lightgrey;
-}
-
-.jambotron>h1{
-	color: black;
-	font-size: 2rem;
-	font-family: serif;
-}
-
-.jambotron p {
-	font-size: 1.25rem;
-	font-family: sans-serif;
-	line-height: 110%;
-}
-
+/**map in outgoing**/
 #map-canvas{
 	height: 300px;
 	width: 900px;
@@ -1597,4 +1593,31 @@ color: #fff;
 	border-radius: 10px;
 	background: whitesmoke;
 	color: darkgreen;
+}
+/**welcome note page**/
+.welcome-container{
+	max-width: 1000px;
+	margin: 10px auto;
+	padding: 5px;
+}
+.welcome-container h1{
+	text-align: center;
+	color: #1E3582;
+	font-family: serif;
+}
+.welcome-container h1 small{
+	font-size: 10px;
+}
+.welcome-container p {
+	font-size: 1.5em;
+	line-height: 120%;
+	margin: 5px;
+	padding: 5px;
+}
+.head{
+	text-align: center;
+	color: lightblue;
+	font-weight: bold;
+	margin: 5px auto;
+	display: block;
 }

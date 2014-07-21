@@ -122,6 +122,11 @@
 					    <img src="http://placehold.it/950x300" alt="" title="test caption2"/>
 					    <img src="http://placehold.it/950x300" alt="" title="test caption3"/>
 					</div>
+					<div class="welcome"><a href="welcome-note.html"><h2>Welcome note</h2></a>
+						<p>
+							First of all. I hope these words find you fine and in your best mode. We would like to express our ultimate glee that you will join IFMSA exchange program and light up our breathtaking city Tanta and our association TSSA "Tanta Students' Scientific Association" . Here in Tanta, with TSSA Family, you will spend the best experience you have ever had in your entire life. <a href="welcome-note.html">Read more &#8230</a>
+						</p>
+					</div>
 	        		<div class="why">
 	        			<h3>Why Egypt?</h3>
 	        			<p>some text that is supposed to go here</p>
@@ -196,10 +201,12 @@
     var geocoder;
     var map;
     var marker;
+    var marker2;
+    var TSSA
       function initialize() {
       	//geocoder = new google.maps.Geocoder();
 	    var latlng = new google.maps.LatLng(30.1140554,31.4129532);
-
+	    /*TSSA = new.google.maps.LatLng(30.7994649,30.9918249);*/
         var mapOptions = {
           center: latlng,
           zoom: 8
@@ -210,24 +217,12 @@
       		map: map,
       		position: latlng
       	})
+      	/*marker2 = new google.maps.Marker({
+      		map: map,
+      		position: TSSA,
+      	})*/
       }
       google.maps.event.addDomListener(window, 'load', initialize);
-      
-      /*function CodeAddressAirport(){
-      	var address = "Heliopolis, Cairo Governorate 11432, Egypt";
-	    geocoder.geocode( { 'address': address}, function(results, status) {
-      if (status == google.maps.GeocoderStatus.OK) {
-      	//map.setCenter(results[0].geometry.location);
-        var marker = new google.maps.Marker({
-            map: map,
-            position: results[0].geometry.location
-        });
-      } else {
-        console.log("coding not succesful");
-      }
-    });
-
-      }*/
       
     </script>
 
