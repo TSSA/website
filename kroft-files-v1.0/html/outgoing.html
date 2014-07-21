@@ -111,10 +111,14 @@
 
 	        	<!-- Page wrap -->
 	        	<div id="page-wrap">
-						<div class="jambotron">
+						<!-- <div class="jambotron">
 							<h1>testing</h1>
 							<p>this area is reserved for the image</p>
 							<p>I'm just testing the Jambotron feature</p>
+						</div> -->
+						<div class="world-map">
+							<img src="img/maps/world_map.jpg" id="world-map">
+							<img src="img/maps/arrow-pointing.png" class="arrow" id="uk-arrow">
 						</div>
 						<div class="country-list">
 							<ul>
@@ -203,6 +207,7 @@
 		<script type="text/javascript">
 		$('.united-kingdom').click(function () {
 			$('#united-kingdom').toggle('slow')
+			$('#uk-arrow').toggle()
 		});
 		$('.germany').click(function(){
 			$('#germany').toggle('slow')

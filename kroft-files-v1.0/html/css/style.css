@@ -1561,12 +1561,27 @@ color: #fff;
 }
 
 /**Outgoing**/
+.world-map{
+	text-align: center;
+	width: 100%;
+	position: relative;
+}
+#world-map{
+	margin: 5px auto;
+}
+.arrow{
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	top: 50px;
+	left: 461px;
+	display: none;
+}
 .country-list{
 	margin: 10px auto;
 }
 .country-list ul{
-	background-color: silver;
-	color: whitesmoke;
+	color: black;
 	padding: 1px;
 	text-align: center;
 	margin: 2px auto;
